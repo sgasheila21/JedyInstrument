@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeMenu"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_home_24"
+        />
+
+    <item
+        android:id="@+id/logOut"
+        android:title="LogOut"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_logout_24"
+        />
+
+    <item
+        android:id="@+id/aboutUsMenu"
+        android:title="About Us"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/activeOrderMenu"
+        android:title="Active Order"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/profileMenu"
+        android:title="Profile"
+        app:showAsAction="never"
+        />
+</menu>
